@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>test</title>
+	<style>
+		.left{
+			background-color: rgb(0,0,0);
+			width: 60%;
+			float: left;
+		}
+		img{
+			width: 10%;
+			padding-top: 20px;
+			padding-left: 40px;
+		}
+		h1{
+			color: white;
+			padding-left: 40px;
+			font-weight: 10;
+		}
+		h2{
+			padding-left: 40px;
+			color: rgba(255,255,255,0.4);
+		}
+		p{
+			padding-left: 40px;
+			padding-right: 140px;
+			text-align: justify;
+			color: rgba(255,255,255,0.4);
+		}
+		.btn{
+			margin-left: 40px;
+			padding: 10px;
+    		background-color: rgb(80, 200, 120);
+   		 	width: 155px;
+    		height: 37px;
+    		color: rgba(255,255,255,0.8);
+			}
+			select{
+				width: 20px;
+				background-color: rgb(0,0,0);
+				border-color: rgb(0,0,0);
+				color: rgba(255,255,255,0.4);
+			}
+		option{
+			background-color: gray;
+		}
+		label{
+			padding-left: 40px;
+			color: rgba(255,255,255,0.4);
+		}
+		footer{
+			padding-bottom: 80px;
+			font-size: small;
+		}
+		.pass{
+			text-decoration: none;
+			color: rgba(255,255,255,0.4);
+			padding-left: 50px;
+		}
+		.right{
+			width: 40%;
+			background-color: rgb(80, 200, 120);
+			float: right;
+			padding-bottom: 343px;
+		}
+		.cont{
+			color: rgba(255,255,255,0.9);
+			padding-left: 70px;
+			padding-top: 230px;
+			font-size: x-large;
+		}
+		form{
+			padding-left: 70px;
+		}
+		.fpass{
+			padding-left: 20px;
+			text-decoration: none;
+			color: rgba(255,255,255,0.5);
+			font-size: small;
+		}
+		input[type="email"]{
+			border-style: none none solid none;
+			border-color: rgba(255,255,255,0.5);
+			background-color: rgb(80, 200, 120);
+			width: 80%;
+		}
+		input[type="password"]{
+			border-style: none none solid none;
+			border-color: rgba(255,255,255,0.5);
+			background-color: rgb(80, 200, 120);
+			width: 80%;
+		}
+		.bttn{
+			background-color: rgb(255, 255, 255);
+			width: 100px;
+			border: 0px solid white;
+			padding: 5px;
+			color: rgb(80, 200, 120);
+			font-weight: bolder;
+		}
+		::placeholder{
+			color: rgba(255,255,255,0.5);
+		}
+		.top{
+			width: 99%; 
+			background-color: rgba(255,255,255);
+			margin-bottom: -1px;
+			padding-left: 15px;
+		}
+		.main{
+			padding-top: 40px;
+			height: 800px;
+			padding-left: 40px;
+			padding-right: 40px;
+			border: 2px solid white;
+			background-color: gray;
+
+		}
+		.btn:hover{
+			cursor: pointer;
+		}
+		.bttn:hover{
+			cursor: pointer;
+		}
+	</style>
+	<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+</head>
+<body>	
+	<div class="main">
+		<div class="top">
+			<i class="fa-solid fa-circle fa-2xs" style="color: red" ></i>
+			<i class="fa-solid fa-circle fa-2xs" style="color: yellow"></i>
+			<i class="fa-solid fa-circle fa-2xs" style="color: green"></i>
+		</div>
+		<div class="left">
+			<img src="https://cosy.erc.edu/assets/my-erc/img/logo-white.png">
+			<br><br><br><br><br><br><br><br><br>
+			<h1>Welcome</h1>
+			<h2>Register for an ERC account here</h2>
+			<p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like).</p><br>
+			<input type="button" value="REGISTER HERE" class="btn">
+			<br><br><br><br><br><br><br><br><br>
+			<footer>
+				<label>CHOOSE LANGUAGE</label>
+				<select>
+					<option>English</option>
+					<option>French</option>
+					<option>Spanish</option>
+				</select>
+				<a class="pass" href="#">HELP CENTRE</a>
+				<a class="pass" href="#">ERC WEBSITE</a>
+				<a class="pass" href="#">ERC WEBSHOP</a>
+			</footer>
+		</div>
+		<div class="right">
+				<p class="cont">Or,login to your account</p>
+				<form action="">
+					<input type="email" placeholder="Your email"><br><br>
+					<input type="password" placeholder="Password"><br><br>
+					<input type="button" value="LOGIN" class="bttn">
+					<a href="" class="fpass">Forgot Password</a>
+				</form>
+			</div>
+	</div>
+</body>
+</html>
